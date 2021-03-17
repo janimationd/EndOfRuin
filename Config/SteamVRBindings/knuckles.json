@@ -9,67 +9,23 @@
 			"sources": [
 				{
 					"mode": "button",
-					"path": "/user/hand/right/input/a",
+					"path": "/user/hand/right/input/b",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/TeleportRight"
-						}
-					}
-				},
-				{
-					"mode": "joystick",
-					"path": "/user/hand/right/input/thumbstick",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/TeleportRight"
-						}
-					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/left/input/a",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/TeleportLeft"
-						}
-					}
-				},
-				{
-					"mode": "joystick",
-					"path": "/user/hand/left/input/thumbstick",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/TeleportLeft"
+							"output": "/actions/main/in/DropItem"
 						}
 					}
 				},
 				{
 					"mode": "trigger",
-					"path": "/user/hand/left/input/grip",
+					"path": "/user/hand/right/input/trigger",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/GrabLeft"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/right/input/grip",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/GrabRight"
+							"output": "/actions/main/in/EquipItemRight"
 						}
 					}
 				},
@@ -129,5 +85,5 @@
 			]
 		}
 	},
-	"description": "Virtual Reality BP Game Template-13908680"
+	"description": "Virtual Reality BP Game Template-14469661"
 }
